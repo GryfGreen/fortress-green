@@ -1,0 +1,13 @@
+body {
+    background-color: #e6f2e6; /* Мягкий зелёный */
+    font-family: Arial, sans-serif;
+}
+.logo {
+    border-radius: 20px; /* Закруглённые углы */
+    width: 150px;
+}
+.status-box {
+    background-color: #b399d4; /* Фиолетовый */
+    padding: 15px;
+    border-radius: 10px;
+}
