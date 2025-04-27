@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc main.c -o fortress -Wall
-echo "✅ Прошивка собрана! Запуск: ./fortress"
+arm-linux-gnueabihf-gcc main.c -o fortress -Wall -static
+file fortress  # Проверка архитектуры
